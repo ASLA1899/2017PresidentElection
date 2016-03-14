@@ -1,0 +1,573 @@
+/*Base================================================================================*/
+
+
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll; 
+  position: absolute;
+  padding-top: 60px;
+  background-color: #039BE5;
+  top: 0;
+  left: 0;
+  font-family: 'Lato', 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+}
+
+.header {
+  background-color: #03A9F4;
+  width: 100%;
+  font-size: 38px;
+  color: #fff;
+  padding: 40px 0px 40px 45px;
+  font-weight: 100;
+}
+
+.navbar-brand img {
+  width: 224px;
+  height: 42px;
+  max-width: 100%;
+  max-height: auto;
+}
+
+.navbar-default {
+  background-color: #03A9F4;
+  border: none;
+  border-radius: 0px;
+  min-height: 75px;
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+
+}
+
+.navbar-default .navbar-collapse {
+  border-color: #03A9F4
+}
+
+.navbar-default .navbar-nav > li {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 100;
+  padding: 5px 0px 0px 7px;
+
+}
+
+.navbar-right {
+  margin-right: 25px;
+}
+
+.navbar-default .navbar-nav > li {
+  color: #E1F5FE;
+  font-size: 32px;
+  font-family: 'Lato', 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #E1F5FE;
+  font-size: 16px;
+  font-family: 'Lato', 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+}
+
+.navbar-nav > li > a{
+  padding-bottom: 0px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.navbar-default .navbar-nav > li > a:hover, a:focus {
+  color: #fff;
+}
+
+.navbar-collapse {
+  padding-top: 15px;
+}
+
+.section-1 {
+  width: 50%;
+  background-color: #039BE5;
+  height: auto;
+  display: block;
+  float: left;
+  padding: 50px 0px;
+  left: 4%;
+  z-index: 4;
+  position: relative;
+}
+
+.section-1 h1 {
+  color: #E1F5FE;
+  font-size: 3.5em;
+  font-family: 'Lato', 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  top: 11%;
+  position: relative;
+  font-weight: 300;
+
+}
+.section-1 h2 {
+  color: #E1F5FE;
+  font-size: 1.5em;
+  font-family: 'Lato', 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  top: 11%;
+  position: relative;
+  font-weight: 300;
+
+}
+
+.section-1 p {
+  color: #E1F5FE;
+  font-size: 1em;
+  font-family: 'Lato', 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  top: 11%;
+  position: relative;
+  font-weight: 300;
+
+}
+
+.section-1 a {
+  color: #FFA0A0;
+  font-weight: 400;
+}
+
+.section-1 a:hover {
+  color: #FFA0A0;
+}
+
+.section-2 {
+  width: 100%;
+  background-color: #039BE5;
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: relative;
+  z-index: -1;
+  
+}
+
+#ballot-box {
+  background: url("image/ballotbox-01.png") no-repeat;
+  background-size: contain;
+  background-position: center;
+  position: relative;
+  width: 50%;
+  height: 600px;
+  display: block;
+  float: right;
+  background-color: #039BE5;
+  z-index: 3;
+}
+
+#headshot img {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 350px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.btn {
+  border: 2px solid transparent;
+}
+
+.btn:hover {
+  color: #FF5252;
+  background-color: #FFA0A0;
+  border-color: #FFA0A0;
+  transition: .1s ease;
+}
+
+.btn-group {
+  margin: 10px 0px;
+  width: 100%;
+}
+
+.btn-default {
+  background-color: #E1F5FE;
+  border-color: #E1F5FE;
+  color: #039BE5;
+}
+
+.btn-lg {
+  border-radius: 0px;
+}
+
+#Concept {
+  width: 100%;  
+}
+
+#Question-1 {
+  width: 31%;
+  margin-right: 3.5%;
+}
+
+#Question-2 {
+  width: 31%;
+  margin-right: 3.5%;
+}
+
+#Question-3 {
+  width: 31%;
+
+}
+
+.rule {
+  width: 75%;
+  border-bottom: 15px solid #FF5252;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: 0 auto;
+
+}
+
+.col-md-6 {
+  padding: 0px;
+}
+
+.col-md-4 {
+  padding: 0px;
+}
+
+#speech-1-background {
+  width: 100%;
+  background-color: #039BE5;
+  position: relative;
+  z-index: 2;
+}
+
+#speech-1 {
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  padding-top: 60px;
+  
+}
+
+#speech-1 h1 {
+  font-size: 5em;
+  text-align: center;
+  color: #E1F5FE;
+  font-weight: 100;
+  font-family: 'Lato', 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+
+}
+
+#speech-1 p {
+  font-weight: 400;
+  font-family: 'Lato', 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  font-size: 1em;
+  background-color: #f5f5f5;
+  padding: 20px;
+  -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+
+
+}
+
+#speech-2-background {
+  width: 100%;
+  background-color: #039BE5;
+  position: relative;
+  z-index: 2;
+}
+
+#speech-2 {
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  padding-top: 60px;
+  
+}
+
+#speech-2 h1 {
+  font-size: 5em;
+  text-align: center;
+  color: #E1F5FE;
+  font-weight: 100;
+  font-family: 'Lato', 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+
+}
+
+#speech-2 p {
+  font-weight: 400;
+  font-family: 'Lato', 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  font-size: 1em;
+  background-color: #f5f5f5;
+  padding: 20px;
+  -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+
+
+}
+
+#video {
+  width: 100%;
+  background-color: #0288D1;
+  padding: 70px 20px 70px 40px;
+  top: -8%;
+  margin: 0 auto;
+  z-index: 1;
+  position: relative;
+  
+}
+
+.video-1 {
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+}
+
+#video2 {
+  width: 100%;
+  background-color: #0288D1;
+  padding: 70px 30px;
+  top: -8%;
+  margin: 0 auto;
+  z-index: 1;
+  position: relative;
+}
+
+.video-2 {
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+}
+
+#video3 {
+  width: 100%;
+  background-color: #0288D1;
+  padding: 70px 40px 70px 20px;
+  top: -8%;
+  margin: 0 auto;
+  z-index: 1;
+  position: relative;
+}
+
+.video-3 {
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+}
+
+
+/* Mobile First! Mobile Phone========================================================================*/
+@media (max-width:767px) {
+
+.navbar-brand {
+  padding: 15px 10px;
+}
+
+.navbar-default {
+  margin-bottom: 0px;
+}
+
+.navbar-collapse {
+  background-color: #EEEEEE;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #03A9F4;
+  padding: 20px;
+}
+
+.navbar-default .navbar-nav > li {
+  color: #03A9F4;
+  font-size: 22px;
+  font-weight: 100;
+  padding: 6px 0px 0px 25px;
+
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #fff;
+  background-color: #0288D1;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #03A9F4;
+}
+
+.navbar-toggle {
+  border-radius: 0px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #E1F5FE;
+}
+
+.navbar-toggle .icon-bar {
+  width: 30px;
+  height: 7px;
+  border-radius: 0px;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #03A9F4;
+}
+
+.section-1 {
+  width: 100%;
+  background-color: #039BE5;
+  height: auto;
+  display: block;
+  z-index: 4;
+  padding: 30px 20px;
+  position: relative;
+  left: 2%;
+}
+
+.section-1 h1 {
+  color: #E1F5FE;
+  font-size: 2.5em;
+  font-family: 'Lato', 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  top: 20%;
+  left: -5px;
+  padding: 5px 10px;
+  position: relative;
+  font-weight: 300;
+
+}
+
+.section-1 h2 {
+  color: #E1F5FE;
+  font-size: 1.5em;
+  font-family: 'Lato', 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  top: 30%;
+  left: -5px;
+  padding: 5px 10px;
+  position: relative;
+  font-weight: 300;
+
+}
+
+.section-1 p {
+  color: #E1F5FE;
+  font-size: 1em;
+  font-family: 'Lato', 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  top: 30%;
+  left: -5px;
+  padding: 5px 15px 5px 10px;
+  position: relative;
+  font-weight: 300;
+
+}
+
+.section-2 {
+  width: 100%;
+  background-color: #0288D1;
+  position: relative;
+  z-index: -1;
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: relative;
+  z-index: -1;
+}
+
+#ballot-box {
+  background: url("image/ballotbox-01.png") no-repeat;
+  background-size: contain;
+  background-position: center;
+  position: relative;
+  width: 100%;
+  height: 300px;
+  display: block;
+  float: right;
+  background-color: #039BE5;
+  z-index: 3;
+
+}
+
+.btn {
+  font-size: 14px;
+}
+
+#speech-1-background {
+  width: 100%;
+  background-color: #039BE5;
+}
+
+#speech-2-background {
+  width: 100%;
+  background-color: #039BE5;
+  position: relative;
+}
+
+#speech-1 {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  padding-top: 60px;
+  
+}
+
+#speech-2 {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  padding-top: 60px;
+  
+}
+
+#video {
+  width: 100%;
+  background-color: #0288D1;
+  padding: 50px;
+  top: -28%;
+  margin: 0 auto;
+  position: relative;
+  
+}
+
+#video2 {
+  width: 100%;
+  background-color: #0288D1;
+  padding: 50px;
+  top: -28%;
+  margin: 0 auto;
+  position: relative;
+  
+}
+
+#video3 {
+  width: 100%;
+  background-color: #0288D1;
+  padding: 50px;
+  top: -28%;
+  margin: 0 auto;
+  position: relative;
+  
+}
+
+}
+
+/* Tablet and Tweener========================================================================*/
+@media (min-width:768px) and (max-width:1200px) {
+  
+  .btn {
+    font-size: 15px;
+  }
+
+  #video {
+    padding: 50px;
+  }
+
+  #video2 {
+    padding: 50px;
+  }
+
+  #video3 {
+    padding: 50px;
+  }
+}
+
+
+ 
